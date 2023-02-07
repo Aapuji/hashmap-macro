@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use hashmap_macro::def::hashmap;
 
 fn main() {
     let empty: HashMap<&str, usize> = hashmap! {};
